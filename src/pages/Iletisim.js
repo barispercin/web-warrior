@@ -12,6 +12,7 @@ const Iletisim = () => {
       <div>
         <Navbar />
       </div>
+      <div style={{backgroundColor:"#fafafa"}}>
       <Col style={{textAlign:"center", paddingTop:60, paddingBottom:40 }}>
       <p style={{letterSpacing: 1, fontWeight:"400", fontSize:30 }}>İletişim</p>    
 
@@ -51,6 +52,7 @@ const Iletisim = () => {
       <p style={{color: "gray"}}>info@elephantapps.co</p>
       </Container>
       <Footer/>
+      </div>
     </div>
   );
 };

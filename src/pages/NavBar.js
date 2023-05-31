@@ -32,7 +32,7 @@ const Navbar = () => {
               className={`navbar-link ${activeLink === 'Anasayfa' ? 'active' : ''}`}
               onClick={() => handleClick('Anasayfa')}
             >
-              Homepage
+              Anasayfa
             </Link>
           </li>
           <li>
@@ -41,7 +41,7 @@ const Navbar = () => {
               className={`navbar-link ${activeLink === 'Hakkimizda' ? 'active' : ''}`}
               onClick={() => handleClick('Hakkimizda')}
             >
-              About Us
+              Hakkımızda
             </Link>
           </li>
           <li>
@@ -50,7 +50,7 @@ const Navbar = () => {
               className={`navbar-link ${activeLink === 'Hizmetlerimiz' ? 'active' : ''}`}
               onClick={() => handleClick('Hizmetlerimiz')}
             >
-              Our Services
+              Hizmetlerimiz
             </Link>
           </li>
           <li>
@@ -59,7 +59,7 @@ const Navbar = () => {
               className={`navbar-link ${activeLink === 'Islerimiz' ? 'active' : ''}`}
               onClick={() => handleClick('Islerimiz')}
             >
-              Our Jobs
+              İşlerimiz
             </Link>
           </li>
           <li>
@@ -68,7 +68,7 @@ const Navbar = () => {
               className={`navbar-link ${activeLink === 'Kariyer' ? 'active' : ''}`}
               onClick={() => handleClick('Kariyer')}
             >
-              Career
+              Kariyer
             </Link>
           </li>
           <li>
@@ -77,7 +77,7 @@ const Navbar = () => {
               className={`navbar-link ${activeLink === 'Iletisim' ? 'active' : ''}`}
               onClick={() => handleClick('Iletisim')}
             >
-              Iletisim
+              İletişim
             </Link>
           </li>
         </ul>

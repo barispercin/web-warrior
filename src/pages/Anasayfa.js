@@ -21,6 +21,7 @@ const Anasayfa = () => {
       <BuradanBaslayin/>
       <Footer/>
       
+      
     </div>
   );
 };

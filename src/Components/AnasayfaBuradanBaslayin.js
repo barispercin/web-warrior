@@ -4,7 +4,7 @@ import Col from "react-bootstrap/Col";
 import { Container } from "react-bootstrap";
 const BuradanBaslayin = () => {
   return (
-    <div style={{ backgroundColor: "#fafafa" }}>
+    <div style={{ backgroundColor: "white" }}>
       <Container>
         <p
           style={{
@@ -64,6 +64,7 @@ const BuradanBaslayin = () => {
           paddingTop: 80,
           justifyContent: "space-between",
           paddingInline: 220,
+          
         }}
       >
         <img

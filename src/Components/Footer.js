@@ -14,7 +14,7 @@ const Footer = () => {
   return (
     <div
       style={{
-        backgroundColor: "#fafafa",
+        backgroundColor: "white",
         paddingLeft: 25,
         paddingTop: 100,
         height: 400,
