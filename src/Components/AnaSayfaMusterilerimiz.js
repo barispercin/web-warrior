@@ -5,7 +5,7 @@ import { Container } from "react-bootstrap";
 const Musterilerimiz = () => {
   return (
     <div>
-      <p style={{ color: "red", marginTop:50, marginBottom:50, marginLeft:50, fontSize:11 }}>MÜŞTERİLERİMİZ</p>
+      <p style={{ color: "red", marginTop:50, marginBottom:50, marginLeft:50, fontSize:12 }}>MÜŞTERİLERİMİZ</p>
       <Container>
         <Row style={{ justifyContent: "space-between" }}>
           <img

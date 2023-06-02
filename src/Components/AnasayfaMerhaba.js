@@ -11,7 +11,7 @@ const Merhaba = () => {
           marginTop: 50,
           marginBottom: 50,
           marginLeft: 40,
-          fontSize: 11,
+          fontSize: 12,
         }}
       >
         MERHABA.

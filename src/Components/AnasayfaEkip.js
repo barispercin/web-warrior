@@ -1,16 +1,13 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { Container } from "react-bootstrap";
 const Ekip = () => {
   return (
     <div style={{ backgroundColor: "#fafafa" }}>
       <p
         style={{
-          color: "red",
-          fontWeight: 500,
-          letterSpacing: 1,
           fontsize:11,
+          color: "red",
           marginBottom: 40,
           marginLeft: 25,
           

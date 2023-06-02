@@ -11,7 +11,7 @@ const UygulamaGelistirmeAsamalari = () => {
           marginTop: 30,
           marginBottom: 80,
           marginLeft: 25,
-          fontSize: 11,
+          fontSize: 12,
         }}
       >
         UYGULAMA GELİŞTİRME AŞAMALARI

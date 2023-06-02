@@ -2,6 +2,11 @@ import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Container } from "react-bootstrap";
+import { GoClock } from "react-icons/go";
+import { HiOutlineMagnifyingGlass } from "react-icons/hi2";
+import { TbDeviceAnalytics } from "react-icons/tb";
+import { AiOutlineProject } from "react-icons/ai";
+
 const Planlama = () => {
   return (
     <div style={{ backgroundColor: "#fafafa" }}>
@@ -12,7 +17,7 @@ const Planlama = () => {
           marginLeft: 40,
           paddingTop: 100,
           fontSize: 14,
-          fontWeight:600
+          fontWeight: 600,
         }}
       >
         ELEPHANTAPPS UYGULAMA YAŞAM DÖNGÜSÜ
@@ -21,9 +26,9 @@ const Planlama = () => {
       <p
         style={{
           color: "red",
+          fontSize: 14,
           marginBottom: 50,
           marginLeft: 40,
-          fontSize: 14,
         }}
       >
         Planlama
@@ -35,8 +40,7 @@ const Planlama = () => {
             marginLeft: 30,
             padding: 20,
             width: 700,
-            height:300
-            
+            height: 370,
           }}
         >
           <p
@@ -51,51 +55,65 @@ const Planlama = () => {
             Ne Yaparız?
           </p>
           <Container>
-          <h3>Kurumsal uygulamalar geliştiririz.</h3>
-          <p style={{fontSize:13,marginTop:30, color:"gray"}}>
-            Deneyimli ve kendini sürekli geliştiren ekibimizle yeni fikirler ve
-            yeni teknolojiler üretiriz.
-            <br /> Uygulamaların yaşam döngüsü analizlerini yapar, geliştirme ve
-            yayınlama süreçlerini kusursuzca<br/> planlarız.
-          </p>
+            <h3>Kurumsal uygulamalar geliştiririz.</h3>
+            <p style={{ fontSize: 13, marginTop: 30, color: "dimgray" }}>
+              Deneyimli ve kendini sürekli geliştiren ekibimizle yeni fikirler
+              ve yeni teknolojiler üretiriz.
+              <br /> Uygulamaların yaşam döngüsü analizlerini yapar, geliştirme
+              ve yayınlama süreçlerini kusursuzca
+              <br /> planlarız.
+            </p>
           </Container>
         </Container>
-          <Col style={{paddingLeft:50, paddingTop:30}}>
+        <Col style={{ paddingLeft: 50, paddingTop: 10 }}>
           <Row>
-          <Col>
-            <p style={{fontSize:18}}>İhtiyaçların Belirlenmesi</p>
-            <p style={{fontSize:13}}>
-              Doğru analizler ve teknolojik  çözümlerle<br /> ihtiyaçlarınızı
-              eksiksiz
-               tespit ederiz.
-            </p>
-          </Col>
-          <Col>
-            <p style={{fontSize:18}}>Sistem Tasarım</p>
-            <p style={{fontSize:13}}>
-              Kullanıcı deneyimine ve modern tasarım
-              <br /> trendlerine göre uygulamalarınızı
-              <br /> tasarlarız
-            </p>
-          </Col>
+            <Col>
+              <p style={{ fontSize: 19 }}>İhtiyaçların Belirlenmesi</p>
+              <HiOutlineMagnifyingGlass
+                style={{ width: 40, height: 40, color: "gray",marginBottom:20 }}
+              ></HiOutlineMagnifyingGlass>
+              <p style={{ fontSize: 16, color: "dimgray", lineHeight: 1.1 }}>
+                Doğru analizler ve teknolojik
+                <br /> çözümlerle ihtiyaçlarınızı eksiksiz
+                <br /> tespit ederiz.
+              </p>
+            </Col>
+            <Col>
+              <p style={{ fontSize: 19 }}>Sistem Tasarım</p>
+              <TbDeviceAnalytics
+                style={{ width: 40, height: 40, color: "gray",marginBottom:20 }}
+              ></TbDeviceAnalytics>
+              <p style={{ fontSize: 16, color: "dimgray", lineHeight: 1.1 }}>
+                Kullanıcı deneyimine ve modern tasarım trendlerine göre
+                <br /> uygulamalarınızı tasarlarız
+              </p>
+            </Col>
           </Row>
           <Row>
-          <Col>
-            <p style={{fontSize:18}}>Stratejik Sistem Analizi</p>
-            <p style={{fontSize:13}}>
-              Rakip firma ve uygulamaları araştırır, size
-              <br /> en uygun sistemi planlarız.
-            </p>
-          </Col>
-          <Col>
-            <p style={{fontSize:18}}>Proje Planı ve Maliyet Analizi</p>
-            <p style={{fontSize:13}}>
-              Proje planlamalarımızı müşterilerimize
-              <br /> uygun zaman ve maliyetler
-              <br /> doğrultusunda gerçekleştiririz.
-            </p>
-          </Col>
-        </Row>
+            <Col>
+              <p style={{ fontSize: 19 }}>Stratejik Sistem Analizi</p>
+              <GoClock
+                style={{ width: 40, height: 40, color: "gray",marginBottom:20 }}
+              ></GoClock>
+              <p style={{ fontSize: 16, color: "dimgray", lineHeight: 1.1 }}>
+                Rakip firma ve uygulamaları
+                <br /> araştırır, size en uygun sistemi
+                <br /> planlarız.
+              </p>
+            </Col>
+            <Col>
+              <p style={{ fontSize: 19 }}>Proje Planı ve Maliyet Analizi</p>
+              <AiOutlineProject
+                style={{ width: 40, height: 40, color: "gray",marginBottom:20 }}
+              ></AiOutlineProject>
+              <p style={{ fontSize: 16, color: "dimgray", lineHeight: 1.1 }}>
+                Proje planlamalarımızı
+                <br /> müşterilerimize uygun zaman ve
+                <br /> maliyetler doğrultusunda
+                <br /> gerçekleştiririz.
+              </p>
+            </Col>
+          </Row>
         </Col>
       </Row>
     </div>

@@ -8,9 +8,8 @@ const BakimveDestek = () => {
       <p
         style={{
           color: "red",
-          fontWeight: 500,
-          letterSpacing: 1,
-          fontsize:12,
+         
+          fontsize:11,
           marginLeft: 25,
           fontSize: 12,
         }}
