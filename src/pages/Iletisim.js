@@ -4,6 +4,7 @@ import Navbar from "./NavBar";
 import { TfiLocationPin } from "react-icons/tfi";
 import { BsTelephone } from "react-icons/bs";
 import { GoMail } from "react-icons/go";
+
 import { Col, Container, Row } from "react-bootstrap";
 import Footer from "../Components/Footer";
 const Iletisim = () => {

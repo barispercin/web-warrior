@@ -2,27 +2,33 @@ import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { Container } from "react-bootstrap";
+import { BsTelephone } from "react-icons/bs";
+import { GoMail } from "react-icons/go";
 const BuradanBaslayin = () => {
   return (
     <div style={{ backgroundColor: "white" }}>
-      <Container>
+      <Col style={{ paddingLeft: 140, marginBottom:50 }}>
         <p
           style={{
+            fontsize: 11,
             color: "red",
             marginBottom: 30,
-            fontSize: 11,
-            paddingTop: 20,
+            paddingTop: 30,
           }}
         >
           BURADAN BAŞLAYIN
         </p>
-        <p style={{ fontSize: 18 }}>
+        <p style={{ fontSize: 22, color:"dimgray", paddingTop:7 }}>
           Bize aklınızdaki projeyi anlatın, uygulamanızı birlikte hayata
           geçirelim.
         </p>
-        <p style={{ color: "gray" }}>+90 (216) 225-8364</p>
-        <p style={{ paddingBottom: 80, color: "gray" }}>info@elephantapps.co</p>
-      </Container>
+        <BsTelephone
+          style={{ height: 50, width: 32, color: "gray",  marginTop:7 }}
+        ></BsTelephone>
+        <p style={{ color: "gray",  paddingTop:15 }}>+90 (216) 225-8364</p>
+        <GoMail style={{ height: 50, width: 35, color: "gray",  marginTop:7 }}></GoMail>
+        <p style={{ paddingBottom: 80, color: "gray", paddingTop:13 }}>info@elephantapps.co</p>
+      </Col>
       <Row style={{}}>
         <Col>
           <img
@@ -64,7 +70,6 @@ const BuradanBaslayin = () => {
           paddingTop: 80,
           justifyContent: "space-between",
           paddingInline: 220,
-          
         }}
       >
         <img

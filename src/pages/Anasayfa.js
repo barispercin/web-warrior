@@ -4,7 +4,7 @@ import Merhaba from "../Components/AnasayfaMerhaba";
 import Musterilerimiz from "../Components/AnaSayfaMusterilerimiz";
 import Planlama from "../Components/AnasayfaPlanlama";
 import UygulamaGelistirmeAsamalari from "../Components/AnasayfaUygulamaGelistirmeAsamalari";
-import BakimveDestek from "../Components/AnaSayfaBakimveDestek";
+import BakimveDestek from "../Components/AnasayfaBakimveDestek";
 import Ekip from "../Components/AnasayfaEkip";
 import BuradanBaslayin from "../Components/AnasayfaBuradanBaslayin";
 import Footer from "../Components/Footer";

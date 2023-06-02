@@ -12,6 +12,7 @@ const Planlama = () => {
           marginLeft: 40,
           paddingTop: 100,
           fontSize: 14,
+          fontWeight:600
         }}
       >
         ELEPHANTAPPS UYGULAMA YAŞAM DÖNGÜSÜ

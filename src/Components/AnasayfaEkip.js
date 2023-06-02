@@ -8,9 +8,12 @@ const Ekip = () => {
       <p
         style={{
           color: "red",
+          fontWeight: 500,
+          letterSpacing: 1,
+          fontsize:11,
           marginBottom: 40,
           marginLeft: 25,
-          fontSize: 11,
+          
           paddingTop: 80,
         }}
       >
