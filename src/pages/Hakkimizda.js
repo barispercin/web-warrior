@@ -65,7 +65,7 @@ const Hakkimizda = () => {
           </Link>
         </Row>
       </Col>
-
+  
       <Ekip />
       <Footer />
     </div>
